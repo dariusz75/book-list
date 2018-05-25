@@ -1,5 +1,6 @@
 .success, 
-.error {
+.error,
+.deleted {
     color: #fff;
     padding: 5px;
     margin: 5px 0 15px 0;
@@ -11,4 +12,8 @@
 
 .error {
     background-color: red;
+}
+
+.deleted {
+    background-color: #d16b0c;
 }
